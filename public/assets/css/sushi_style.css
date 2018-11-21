@@ -1,0 +1,33 @@
+html, body, header, .view {
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background: url("../img/blur.jpg") no-repeat center center fixed;
+    height: 100%;
+}
+
+.delete-sushi {
+    border: none;
+    border-radius: 50%;
+}
+
+.list-group-flush {
+    padding: 0;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.list-group-item {
+    background-color: transparent;
+}
+
+.card {
+    border-color: white;
+}

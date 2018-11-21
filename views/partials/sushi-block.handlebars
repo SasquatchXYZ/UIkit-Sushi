@@ -1,0 +1,27 @@
+<!--<li class="list-group-item">
+    {{this.sushi_name}}
+    <button class="shift btn btn-sm {{#if
+        mindfully_eaten}}btn-outline-warning{{else}}btn-outline-info{{/if}}"
+            data-id="{{this.id}}" data-newme="{{mindfully_eaten}}">
+        {{#if mindfully_eaten}}Enjoy{{else}}Reorder{{/if}}
+    </button>
+    <button type="button" class="delete-sushi btn btn-outline-danger btn-sm" data-id="{{this.id}}"><i class="fas fa-times"></i></button>
+</li>-->
+
+<li class="list-group-item">
+    {{#if mindfully_eaten}}
+        <button type="button" class="delete-sushi btn btn-outline-danger btn-sm left" data-id="{{this.id}}"><i
+                class="fas fa-times"></i></button>
+        {{this.sushi_name}}
+        <button class="shift btn btn-outline-warning btn-sm right" data-id="{{this.id}}"
+                data-newme="{{mindfully_eaten}}">Enjoy
+        </button>
+    {{else}}
+        <button class="shift btn btn-outline-info btn-sm left" data-id="{{this.id}}" data-newme="{{mindfully_eaten}}">
+            Reorder
+        </button>
+        {{this.sushi_name}}
+        <button type="button" class="delete-sushi btn btn-outline-danger btn-sm right" data-id="{{this.id}}"><i
+                class="fas fa-times"></i></button>
+    {{/if}}
+</li>
