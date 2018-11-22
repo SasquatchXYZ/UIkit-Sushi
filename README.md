@@ -1,4 +1,4 @@
-# Sushi Bar
+# Sushi Bar - UIkit
 ##### A Sushi Logging Application using MySQL, Node, Express, & Handlebars.
 
 Sushi is a remake of the 'Burger' web app with improved functionality.  I was a little underwhelmed by the Burger and since it isn't my favorite food, I decided to add a little to it and spice things up a big with more wasabi.  I added the ability to delete sushi items from the list if they are ones that you do not like, as well as reorder the items that you do.  It uses a MySQL database to store the sushi information, Node & Express to run the server and application, with Handlebars as the templating engine.  This version was made using Bootstrap, but I have another working with UIkit I am working on.  
@@ -64,8 +64,7 @@ Notes to come...
 * [MySQL](https://www.mysql.com/) - Runtime Environment
 * [Handlebars](https://handlebarsjs.com/) - Templating Engine
 * [Express.js](https://expressjs.com/) - Web Framework
-* [Bootstrap](https://getbootstrap.com/) - CSS Framework
-* [Font Awesome](https://fontawesome.com/) - Icons
+* [UIkit](https://getuikit.com/) - CSS Framework
 * [gitignore.io](https://www.gitignore.io/) - For creating the .gitignore
 * [WebStorm](https://www.jetbrains.com/webstorm/) - JavaScript IDE
 * [DataGrip](https://www.jetbrains.com/datagrip/) - Database IDE

@@ -1,6 +1,6 @@
-CREATE DATABASE sushi_db;
+CREATE DATABASE sushiui_db;
 
-USE sushi_db;
+USE sushiui_db;
 
 CREATE TABLE sushi (
   id INT AUTO_INCREMENT NOT NULL,

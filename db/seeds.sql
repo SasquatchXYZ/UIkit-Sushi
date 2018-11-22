@@ -1,4 +1,4 @@
-USE sushi_db;
+USE sushiui_db;
 
 INSERT INTO sushi (sushi_name, mindfully_eaten)
 VALUES ('Ankimo', 0),
@@ -9,4 +9,3 @@ VALUES ('Ankimo', 0),
        ('Uni with Quail Egg', 0),
        ('Masago with Quail Egg', 0),
        ('Ikura with Quail Egg', 0);
-
